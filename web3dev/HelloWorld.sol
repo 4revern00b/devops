@@ -8,4 +8,9 @@ contract HelloWorld {
     function setValue( uint newValue) public {
         value = newValue;
     }
+
+//Remove the smartcontract from the test network
+    function remove() public {
+        selfdestruct(payable(address(0x0)));
+    }
 }
