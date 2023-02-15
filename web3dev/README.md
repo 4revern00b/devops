@@ -1,0 +1,1 @@
+This folder contains all my Web3 learning materials and progress
